@@ -70,7 +70,7 @@ elif resposta == "NÃO":
                        st.write(diretorio['LINHA ARGININA']['link'])
                        st.image(diretorio['LINHA ARGININA']['imagem'])
                     elif resposta_adicional5 == "NÃO":
-                           resposta_adicional6 = st.radio("Ele está danificado?" ("SIM", "NÃO")
+                           resposta_adicional6 = st.radio("Ele está danificado?" ("SIM", "NÃO"))
                            if resposta_adicional6 == 'SIM':
                               resposta_adicional7 = st.radio("Ele está muito ou pouco danificado?" ("MUITO", "POUCO"))
                               if resposta_adicional7 == 'MUITO':
@@ -80,14 +80,14 @@ elif resposta == "NÃO":
                                  st.write(diretorio['LINHA REPARAÇÃO TOTAL 5']['link'])
                                  st.image(diretorio['LINHA REPARAÇÃO TOTAL 5']['imagem'])
                            elif resposta_adicional6 == 'NÃO':
-                                resposta_adicional8 = st.radio('Ele está desidratado?" ("SIM", "NÃO"))
+                                resposta_adicional8 = st.radio("Ele está desidratado?" ("SIM", "NÃO"))
                                 if resposta_adicional8 == 'SIM':
                                    resposta_adicional9 = st.radio('Muito?' ("SIM", "NÃO"))
                                    if resposta_adicional9 == 'SIM':
                                       st.write(diretorio['LINHA HIALURONICO']['link'])
                                       st.image(diretorio['LINHA HIALURONICO']['imagem'])
                                    elif resposta_adicional9 == 'NÃO':
-                                      resposta_adicional10 = st.radio('Qual seu tipo de cabelo' ("OLEOSO", "MISTO", "SECO"))
+                                      resposta_adicional10 = st.radio("Qual seu tipo de cabelo?" ("OLEOSO", "MISTO", "SECO"))
                                       if resposta_adicional10 == 'OLEOSO':
                                          st.write(diretorio['LINHA PURE HIALURONICO']['link'])
                                          st.image(diretorio['LINHA PURE HIALURONICO']['imagem'])
@@ -95,7 +95,7 @@ elif resposta == "NÃO":
                                          st.write(diretorio['LINHA DETOX']['link'])
                                          st.image(diretorio['LINHA DETOX']['imagem'])
                                       elif resposta_adicional10 == 'SECO':
-                                         resposta_adicional11 = st.radio('Textura do cabelo?' ("LISO", "CACHEADO"))
+                                         resposta_adicional11 = st.radio("Textura do cabelo?" ("LISO", "CACHEADO"))
                                          if resposta_adicional11 == "SECO":
                                              st.write(diretorio['LINHA OLEO EXTRAORDINARIO']['link'])
                                              st.image(diretorio['LINHA OLEO EXTRAORDINARIO']['imagem'])
@@ -103,15 +103,15 @@ elif resposta == "NÃO":
                                             st.write(diretorio['LINHA OLEO EXTRAORDINARIO CACHOS']['link'])
                                             st.image(diretorio['LINHA OLEO EXTRAORDINARIO CACHOS']['imagem'])
                                 elif resposta_adicional8 == "NÃO":
-                                     resposta_adicional11 = st.radio('Qual é seu tipo de cabelo?' ('LISO', 'CACHEADO'))
+                                     resposta_adicional11 = st.radio("Qual é seu tipo de cabelo?" ("LISO", "CACHEADO"))
                                      if resposta_adicional11 == "LISO":
                                           resposta_adicional12 = st.radio("Quer mais liso ou mais longo?" ("LISO", "LONGO"))     
                                           if resposta_adicional12 == "LISO":
-                                            st.write(diretorio['LINHA LISO DOS SONHOS']['link'])
-                                            st.image(diretorio['LINHA LISO DOS SONHOS']['imagem'])
+                                             st.write(diretorio['LINHA LISO DOS SONHOS']['link'])
+                                             st.image(diretorio['LINHA LISO DOS SONHOS']['imagem'])
                                           elif resposta_adicional12 == 'LONGO':
-                                             st.write(diretorio['LINHA LONGO DOS SONHOS']['link'])
-                                             st.image(diretorio['LINHA LONGO DOS SONHOS']['imagem'])
+                                               st.write(diretorio['LINHA LONGO DOS SONHOS']['link'])
+                                               st.image(diretorio['LINHA LONGO DOS SONHOS']['imagem'])
                                      elif resposta_adicional11 == "CACHEADO":
                                           st.write(diretorio['LINHA CACHOS DOS SONHOS']['link'])
                                           st.image(diretorio['LINHA CACHOS DOS SONHOS']['imagem'])
