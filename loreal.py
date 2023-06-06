@@ -1,5 +1,8 @@
 import streamlit as st
 
+# Título grande
+st.title("# TESTE LOREAL")
+
 diretorio = {
     "LINHA HIDRA DETOX CASPA": 
        {'link': 'https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/hydra-detox-anti-caspa', 'imagem': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbc0HxB_VgYrmBI5hgM4u-_byijruGtLfiQ&usqp=CAU'},
