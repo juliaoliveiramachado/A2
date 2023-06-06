@@ -1,8 +1,9 @@
 import streamlit as st
 
-# Título grande
-st.title("QUAL LINHA ELSEVE É PERFEITA PARA VOCÊ?")
-
+def main():
+    st.title("QUAL LINHA ELSEVE É PERFEITA PARA VOCÊ?")
+    st.write("Bem-vindo(a) ao teste de tipo de cabelo!")
+    
 diretorio = {
     "LINHA HIDRA DETOX CASPA": 
        {'link': 'https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/hydra-detox-anti-caspa', 'imagem': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbc0HxB_VgYrmBI5hgM4u-_byijruGtLfiQ&usqp=CAU'},
@@ -35,12 +36,6 @@ diretorio = {
       'LINHA CACHOS DOS SONHOS':
       {'link': 'https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/cachos-longos-dos-sonhos', 'imagem': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS287TsHFN6F5LST1G01JDkibCmO46fa50kNA&usqp=CAU'}
 }
-
-import streamlit as st
-
-def main():
-    st.title("QUAL LINHA ELSEVE É PERFEITA PARA VOCÊ?")
-    st.write("Bem-vindo(a) ao teste de tipo de cabelo!")
 
 resposta = st.radio("Seu cabelo tem caspa?", ("SIM", "NÃO"))
 if resposta == "SIM":
