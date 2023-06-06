@@ -36,7 +36,7 @@ diretorio = {
 import streamlit as st
 
 def main():
-    st.title("Teste de Tipo de Cabelo")
+    st.title("QUAL LINHA ELSEVE É PERFEITA PARA VOCÊ?")
     st.write("Bem-vindo(a) ao teste de tipo de cabelo!")
 
 resposta = st.radio("Seu cabelo tem caspa?", ("SIM", "NÃO"))
