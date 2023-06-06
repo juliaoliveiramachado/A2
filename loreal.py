@@ -33,7 +33,7 @@ diretorio = {
       {'link': 'https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/cachos-longos-dos-sonhos', 'imagem': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS287TsHFN6F5LST1G01JDkibCmO46fa50kNA&usqp=CAU'}
 }
 
-mport streamlit as st
+import streamlit as st
 
 def main():
     st.title("Teste de Tipo de Cabelo")
