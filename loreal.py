@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Título grande
-st.title("# TESTE LOREAL")
+st.title("QUAL LINHA ELSEVE É PERFEITA PARA VOCÊ?")
 
 diretorio = {
     "LINHA HIDRA DETOX CASPA": 
