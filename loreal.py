@@ -4,8 +4,7 @@ import streamlit as st
 
 # Título grande
 st.title("QUAL ELSEVE É PERFEITO PARA VOCÊ?")
-st.write("A Loreal Elseve tem 16 linhas de cabelo! Com tantas opções maravilhosas fica dificil saber qual é a mais indicada para você, por isso fizemos o Teste de Cabelo Elseve!")
-st. write("Descubra sua linha capilar ideal em menos de 3 minutos!")
+st.write("A Loreal Elseve tem 16 linhas de cabelo! Com tantas opções maravilhosas fica dificil saber qual é a mais indicada para você, por isso fizemos o Teste de Cabelo Elseve! Descubra sua linha capilar ideal em menos de 3 minutos!")
     
 diretorio = {
     "LINHA HIDRA DETOX CASPA": 
