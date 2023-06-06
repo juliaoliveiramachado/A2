@@ -1,8 +1,10 @@
 import streamlit as st
 
-def main():
-    st.title("QUAL LINHA ELSEVE É PERFEITA PARA VOCÊ?")
-    st.write("Bem-vindo(a) ao teste de tipo de cabelo!")
+import streamlit as st
+
+# Título grande
+st.title("QUAL LINHA ELSEVE É PERFEITA PARA VOCÊ?")
+st.write("A Loreal Elseve tem 16 linhas de cabelo! Com tantas opções fica dificil qual é a melhor para você, por isso fizemos o Teste de Cabelo Elseve!")
     
 diretorio = {
     "LINHA HIDRA DETOX CASPA": 
