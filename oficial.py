@@ -39,9 +39,11 @@ diretorio = {
 }
 
 resposta = st.checkbox("Seu cabelo tem caspa?", ("SIM", "NÃO"))
-if resposta = "SIM":
-   st.write(diretorio["LINHA HIDRA DETOX CASPA"]['link'])
-   st.image(diretorio["LINHA HIDRA DETOX CASPA"]['imagem'])
+print(resposta)
+if resposta:
+    print(diretorio["LINHA HIDRA DETOX CASPA"]['link'])
+    st.write(diretorio["LINHA HIDRA DETOX CASPA"]['link'])
+    st.image(diretorio["LINHA HIDRA DETOX CASPA"]['imagem'])
 
 elif resposta == "NÃO":
     resposta_adicional1 = st.checkbox("Você quer usar antes da escova?", ("SIM", "NÃO"))
