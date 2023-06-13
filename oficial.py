@@ -39,7 +39,7 @@ diretorio = {
 }
 
 resposta = st.checkbox("Seu cabelo tem caspa?", ("SIM", "NÃO"))
-if resposta == "SIM":
+st.write(diretorio["LINHA HIDRA DETOX CASPA"]
    st.write(diretorio["LINHA HIDRA DETOX CASPA"]['link'])
    st.image(diretorio["LINHA HIDRA DETOX CASPA"]['imagem'])
 
