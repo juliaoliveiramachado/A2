@@ -81,7 +81,7 @@ elif resposta == "NÃO":
                            elif resposta_adicional6 == 'NÃO':
                                 resposta_adicional8 = st.radio("Ele está desidratado?", ("SIM", "NÃO"))
                                 if resposta_adicional8 == 'SIM':
-                                   resposta_adicional9 = st.radio('Muito?' ("SIM", "NÃO"))
+                                   resposta_adicional9 = st.radio("Muito?", ("SIM", "NÃO"))
                                    if resposta_adicional9 == 'SIM':
                                       st.write(diretorio['LINHA HIALURONICO']['link'])
                                       st.image(diretorio['LINHA HIALURONICO']['imagem'])
