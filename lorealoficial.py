@@ -133,4 +133,13 @@ elif caspaNao:
                           if muitodesidratadoSim:
                               st.write(diretorio['LINHA HIDRA DETOX']['link'])
                               st.image(diretorio['LINHA HIDRA DETOX']['imagem'])
-                    
+
+                      elif muitodesidratadoNao:
+                            st.write("7.2 Qual é o seu tipo?")
+                            tipo = st.checkbox("LISO", key="tipo_1")
+                            tipo = st.checkbox("CACHEADO", key="tipo_2")
+
+                            if muitodesidratadoNao:
+                                
+                              
+                         
