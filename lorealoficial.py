@@ -112,8 +112,8 @@ elif caspaNao:
                          superdanificadoSim = st.checkbox("SIM", key, "superdanificado_1")
                          superdanificadoNao = st.checkbox("NÃO", key, "superdanificado_2")
 
-                        if superdanificadoSim:
-                           st.write(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['link'])
-                           st.image(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['imagem'])
+                         if superdanificadoSim:
+                            st.write(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['link'])
+                            st.image(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['imagem'])
 
 
