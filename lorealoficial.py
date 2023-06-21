@@ -93,11 +93,9 @@ elif caspaNao:
                 st.write(diretorio["LINHA SUPREME CONTROL"]["link"])
                 st.image(diretorio["LINHA SUPREME CONTROL"]["imagem"])
 
-           elif frizzNao:
+            elif frizzNao:
                  st.write("Ele tem queda?")
                  quedaSim = st.checkbox("SIM", key="queda_1")
                  quedaNao = st.checkbox("NÃO", key="queda_2")
-                
-            st.write("5. Ele tem queda?")
             
             
