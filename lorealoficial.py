@@ -115,3 +115,7 @@ elif caspaNao:
                     if superdanificadoSim:
                         st.write(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['link'])
                         st.image(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['imagem'])
+
+                    elif superdanificadoNao: 
+                        st.write(diretorio['LINHA REPARAÇÃO TOTAL 5']['link'])
+                        st.image(diretorio['LINHA REPARAÇÃO TOTAL 5']['imagem'])
