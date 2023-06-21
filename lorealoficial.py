@@ -123,7 +123,7 @@ elif caspaNao:
                 elif danificadoNao:
                       st.write("7. Ele está desidratado?")
                       desidratadoSim = st.checkbox("SIM", key="desidratado_1")
-                      desidratadoNao = st.checkbox("NÃO", key='desidratado_2")
+                      desidratadoNao = st.checkbox("NÃO", key="desidratado_2")
 
                      if desidratadoSim: 
                        st.write("7.1 Ele está muito desidratado?")
