@@ -84,7 +84,7 @@ elif caspaNao:
                 st.write(diretorio["LINHA COLORVIVE"]["link"])
                 st.image(diretorio["LINHA COLORVIVE"]["imagem"])
                 
-          elif quimicaNao:
+          if quimicaNao:
                st.write("4. Ele tem frizz?")
                frizzSim = st.checkbox("SIM", key="frizz_1")
                frizzNao = st.checkbox("NÃO", key="frizz_2")
