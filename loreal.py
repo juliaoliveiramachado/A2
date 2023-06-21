@@ -95,7 +95,7 @@ elif resposta == "NÃO":
                                          st.image(diretorio['LINHA DETOX']['imagem'])
                                       elif resposta_adicional10 == 'SECO':
                                          resposta_adicional11 = st.radio("Textura do cabelo?", ("LISO", "CACHEADO"))
-                                         if resposta_adicional11 == "SECO":
+                                         if resposta_adicional11 == "LISO":
                                              st.write(diretorio['LINHA OLEO EXTRAORDINARIO']['link'])
                                              st.image(diretorio['LINHA OLEO EXTRAORDINARIO']['imagem'])
                                          elif resposta_adicional11 == "CACHEADO":
