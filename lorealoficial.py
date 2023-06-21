@@ -93,27 +93,25 @@ elif caspaNao:
                 st.write(diretorio["LINHA SUPREME CONTROL"]["link"])
                 st.image(diretorio["LINHA SUPREME CONTROL"]["imagem"])
 
-            elif frizzNao:
-                 st.write("5. Ele tem queda?")
-                 quedaSim = st.checkbox("SIM", key="queda_1")
-                 quedaNao = st.checkbox("NÃO", key="queda_2")
-            
-                 if quedaSim:
-                     st.write(diretorio['LINHA ARGININA']['link'])
-                     st.image(diretorio['LINHA ARGININA']['imagem'])
+             elif frizzNao:
+            st.write("5. Ele tem queda?")
+            quedaSim = st.checkbox("SIM", key="queda_1")
+            quedaNao = st.checkbox("NÃO", key="queda_2")
 
-                 elif quedaNao:
-                     st.write("6. Ele está danificado?")
-                     danificadoSim = st.checkbox("SIM", key,"danificado_1")
-                     danificadoNao = st.checkbox("NÃO", key,"danificado_2")
+            if quedaSim:
+                st.write(diretorio['LINHA ARGININA']['link'])
+                st.image(diretorio['LINHA ARGININA']['imagem'])
 
-                     if danificadoSim: 
-                         st.write("6.1 Ele está muito danificado?")
-                         superdanificadoSim = st.checkbox("SIM", key, "superdanificado_1")
-                         superdanificadoNao = st.checkbox("NÃO", key, "superdanificado_2")
+            elif quedaNao:
+                st.write("6. Ele está danificado?")
+                danificadoSim = st.checkbox("SIM", key="danificado_1")
+                danificadoNao = st.checkbox("NÃO", key="danificado_2")
 
-                         if superdanificadoSim:
-                            st.write(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['link'])
-                            st.image(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['imagem'])
+                if danificadoSim:
+                    st.write("6.1 Ele está muito danificado?")
+                    superdanificadoSim = st.checkbox("SIM", key="superdanificado_1")
+                    superdanificadoNao = st.checkbox("NÃO", key="superdanificado_2")
 
-
+                    if superdanificadoSim:
+                        st.write(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['link'])
+                        st.image(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['imagem'])
