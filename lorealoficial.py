@@ -84,3 +84,40 @@ elif caspaNao:
             if pintadoSim:
                 st.write(diretorio["LINHA COLORVIVE"]['link'])
                 st.image(diretorio["LINHA COLORVIVE"]['imagem'])
+            else:
+                frizzSim = st.checkbox("3.2. Seu cabelo tem frizz?")
+                if frizzSim:
+                    st.write(diretorio["LINHA SUPREME CONTROL"]['link'])
+                    st.image(diretorio["LINHA SUPREME CONTROL"]['imagem'])
+                else:
+                    quedaSim = st.checkbox("3.3. Ele tem queda?")
+                    if quedaSim:
+                        st.write(diretorio["LINHA ARGININA"]['link'])
+                        st.image(diretorio["LINHA ARGININA"]['imagem'])
+                    else:
+                        danificadoSim = st.checkbox("3.4. Ele está danificado?")
+                        if danificadoSim:
+                            danoProfundoSim = st.checkbox("3.4.1. Ele está muito ou pouco danificado?")
+                            if danoProfundoSim:
+                                st.write(diretorio["LINHA REPARAÇÃO TOTAL 5 PROFUNDA"]['link'])
+                                st.image(diretorio["LINHA REPARAÇÃO TOTAL 5 PROFUNDA"]['imagem'])
+                            else:
+                                st.write(diretorio["LINHA REPARAÇÃO TOTAL 5"]['link'])
+                                st.image(diretorio["LINHA REPARAÇÃO TOTAL 5"]['imagem'])
+                        else:
+                            desidratadoSim = st.checkbox("3.5. Ele está desidratado?")
+                            if desidratadoSim:
+                                muitaDesidratacaoSim = st.checkbox("3.5.1. Muito desidratado?")
+                                if muitaDesidratacaoSim:
+                                    st.write(diretorio["LINHA HIALURONICO"]['link'])
+                                    st.image(diretorio["LINHA HIALURONICO"]['imagem'])
+                                else:
+                                    tipoCabelo = st.radio("3.5.2. Qual seu tipo de cabelo?", ("OLEOSO", "MISTO", "SECO"))
+                                    if tipoCabelo == "OLEOSO":
+                                        st.write(diretorio["LINHA PURE HIALURONICO"]['link'])
+                                        st.image(diretorio["LINHA PURE HIALURONICO"]['imagem'])
+                                    elif tipoCabelo == "MISTO":
+                                        st.write(diretorio["LINHA DETOX"]['link'])
+                                        st.image(diretorio["LINHA DETOX"]['imagem'])
+                                   
+
