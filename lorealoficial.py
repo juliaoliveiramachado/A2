@@ -83,8 +83,12 @@ elif caspaNao:
             if pintadoSim:
                 st.write(diretorio["LINHA COLORVIVE"]["link"])
                 st.image(diretorio["LINHA COLORVIVE"]["imagem"])
-            else:
-                frizzSim = st.checkbox("3.2. Seu cabelo tem frizz?")
+                
+         else quimicaNao:
+               st.write("4. Ele tem frizz?")
+               frizzSim = st.checkbox("SIM", key="frizz_1")
+               frizzNao = st.checkbox("NÃO", key="frizz_2")
+             
                 if frizzSim:
                     st.write(diretorio["LINHA SUPREME CONTROL"]["link"])
                     st.image(diretorio["LINHA SUPREME CONTROL"]["imagem"])
