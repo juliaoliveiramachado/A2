@@ -135,11 +135,20 @@ elif caspaNao:
                               st.image(diretorio['LINHA HIDRA DETOX']['imagem'])
 
                       elif muitodesidratadoNao:
-                            st.write("7.2 Qual é o seu tipo?")
-                            tipo = st.checkbox("LISO", key="tipo_1")
-                            tipo = st.checkbox("CACHEADO", key="tipo_2")
+                            st.write("7.2 Ele é oleoso?")
+                            oleosoSim = st.checkbox("SIM", key="tipo_1")
+                            oleosoNao = st.checkbox("NÃO", key="tipo_2")
 
-                            if muitodesidratadoNao:
+                            if oleosoSim:
+                               st.write(diretorio['LINHA PURE HIALURONICO']['link'])
+                               st.image(diretorio['LINHA PURE HIALURONICO']['imagem'])
+
+                            elif oleosoNao:
+                                 st.write("7.3 Seu cabelo é cacheado?")
+                                 cacheadoSim = st.checkbox("SIM", key="tipo_1")
+                                 cacheadoNao = st.checkbox("NÃO", key="tipo_2")
+                                
+                                  
                                 
                               
                          
