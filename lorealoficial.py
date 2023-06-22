@@ -177,7 +177,3 @@ elif caspaNao:
                             elif longoNao:
                                 st.write(diretorio['LINHA LISO DOS SONHOS']['link'])
                                 st.image(diretorio['LINHA LISO DOS SONHOS']['imagem'])
-                                  
-                                
-                              
-                         
