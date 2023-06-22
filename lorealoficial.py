@@ -158,8 +158,8 @@ elif caspaNao:
 
                        elif desidratadoNao:
                          st.write("8. Seu cabelo é cacheado?")
-                         cacheadoSim = st.checkbox("SIM", key="tipo_1")
-                         cacheadoNao = st.checkbox("NÃO", key="tipo_2")
+                         cacheadoSim = st.checkbox("SIM", key="cacheado_1")
+                         cacheadoNao = st.checkbox("NÃO", key="cacheado_2")
 
                          if cacheadoSim:
                             st.write(diretorio['LINHA CACHOS DOS SONHOS']['link'])
@@ -167,8 +167,8 @@ elif caspaNao:
 
                          elif cacheadoNao:
                             st.write("9. Quer o seu cabelo mais longo")
-                            longoSim = st.checkbox("SIM", key="tipo_1")
-                            longoNao = st.checkbox("NÃO", key="tipo_2")
+                            longoSim = st.checkbox("SIM", key="longo_1")
+                            longoNao = st.checkbox("NÃO", key="longo_2")
 
                             if longoSim:
                                st.write(diretorio['LINHA LONGO DOS SONHOS']['link'])
