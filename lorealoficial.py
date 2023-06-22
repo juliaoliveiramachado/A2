@@ -36,7 +36,7 @@ diretorio = {
     "LINHA DETOX":
     {'link': 'https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/hydra-detox',
      'imagem': 'https://www.loreal-paris.com.br/-/media/project/loreal/brand-sites/oap/americas/br/products/hair/hair-care/elseve/hydra-detox/hydradetox-48hr-catalogo2.jpg'},
-    "LINHA OELO EXTRAORDINARIO":
+    "LINHA OLEO EXTRAORDINARIO":
     {'link': 'https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/oleo-extraordinario',
      'imagem': 'https://www.loreal-paris.com.br/-/media/project/loreal/brand-sites/oap/americas/br/products/hair/hair-care/elseve/extraordinary-oil/nutricaocatalogo.jpg'},
     'LINHA OLEO EXTRAORDINARIO CACHOS':
