@@ -131,8 +131,8 @@ elif caspaNao:
                           muitodesidratadoNao = st.checkbox("NÃO", key="muitodesidratado_2")
 
                           if muitodesidratadoSim:
-                              st.write(diretorio['LINHA HIDRA DETOX']['link'])
-                              st.image(diretorio['LINHA HIDRA DETOX']['imagem'])
+                             st.write(diretorio['LINHA HIDRA DETOX']['link'])
+                             st.image(diretorio['LINHA HIDRA DETOX']['imagem'])
 
                           elif muitodesidratadoNao:
                               st.write("7.2 Ele é oleoso?")
