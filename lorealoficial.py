@@ -136,8 +136,8 @@ elif caspaNao:
 
                           elif muitodesidratadoNao:
                               st.write("7.2 Ele é oleoso?")
-                              oleosoSim = st.checkbox("SIM", key="tipo_1")
-                              oleosoNao = st.checkbox("NÃO", key="tipo_2")
+                              oleosoSim = st.checkbox("SIM", key="oleoso_1")
+                              oleosoNao = st.checkbox("NÃO", key="oleoso_2")
 
                               if oleosoSim:
                                  st.write(diretorio['LINHA PURE HIALURONICO']['link'])
@@ -145,8 +145,8 @@ elif caspaNao:
 
                               elif oleosoNao:
                                  st.write("7.3 Seu cabelo é cacheado?")
-                                 cabelocacheadoSim = st.checkbox("SIM", key="tipo_1")
-                                 cabelocacheadoNao = st.checkbox("NÃO", key="tipo_2")
+                                 cabelocacheadoSim = st.checkbox("SIM", key="cabelocacheado_1")
+                                 cabelocacheadoNao = st.checkbox("NÃO", key="cabelocacheado_2")
 
                                  if cabelocacheadoSim:
                                     st.write(diretorio['LINHA OLEO EXTRAORDINARIO CACHOS']['link'])
