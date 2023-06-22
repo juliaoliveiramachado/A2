@@ -33,7 +33,7 @@ diretorio = {
     "LINHA PURE HIALURONICO":
     {'link': 'https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/pure-hialuronico',
      'imagem': "https://epocacosmeticos.vteximg.com.br/arquivos/ids/532886-500-500/loreal-paris-elseve-pure-hialuronico-shampoo--5-.jpg?v=638104421191000000"},
-    "LINHA DETOX":
+    "LINHA HIDRA DETOX":
     {'link': 'https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/hydra-detox',
      'imagem': 'https://www.loreal-paris.com.br/-/media/project/loreal/brand-sites/oap/americas/br/products/hair/hair-care/elseve/hydra-detox/hydradetox-48hr-catalogo2.jpg'},
     "LINHA OLEO EXTRAORDINARIO":
