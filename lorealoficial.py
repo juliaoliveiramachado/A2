@@ -120,7 +120,7 @@ elif caspaNao:
                           st.write(diretorio['LINHA REPARAÇÃO TOTAL 5']['link'])
                           st.image(diretorio['LINHA REPARAÇÃO TOTAL 5']['imagem'])
 
-                   elif danificadoNao:
+                    elif danificadoNao:
                        st.write("7. Ele está desidratado?")
                        desidratadoSim = st.checkbox("SIM", key="desidratado_1")
                        desidratadoNao = st.checkbox("NÃO", key="desidratado_2")
