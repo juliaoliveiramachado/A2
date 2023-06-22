@@ -69,9 +69,9 @@ elif caspaNao:
     if escovaSim:
         st.write(diretorio["LINHA QUERALISO"]["link"])
         st.image(diretorio["LINHA QUERALISO"]["imagem"])
+   
     elif escovaNao:
         st.write("3. Seu cabelo tem química?")
-
         quimicaSim = st.checkbox("SIM", key="quimica_1")
         quimicaNao = st.checkbox("NÃO", key="quimica_2")
 
@@ -83,6 +83,10 @@ elif caspaNao:
             if pintadoSim:
                 st.write(diretorio["LINHA COLORVIVE"]["link"])
                 st.image(diretorio["LINHA COLORVIVE"]["imagem"])
+
+            elif pintadoNao:
+                 st.write(diretorio["LINHA REPARAÇÃO TOTAL PÓS QUÍMICA"]["link"])
+                 st.image(diretorio["LINHA REPARAÇÃO TOTAL PÓS QUÍMICA"]["imagem"])
 
         if quimicaNao:
             st.write("4. Ele tem frizz?")
