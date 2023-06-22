@@ -156,7 +156,7 @@ elif caspaNao:
                                      st.write(diretorio['LINHA OLEO EXTRAORDINARIO']['link'])
                                      st.image(diretorio['LINHA OLEO EXTRAORDINARIO']['imagem'])
 
-                      if desidratadoNao:
+                       elif desidratadoNao:
                          st.write("8. Seu cabelo é cacheado?")
                          cacheadoSim = st.checkbox("SIM", key="tipo_1")
                          cacheadoNao = st.checkbox("NÃO", key="tipo_2")
