@@ -107,25 +107,25 @@ elif caspaNao:
                     danificadoSim = st.checkbox("SIM", key="danificado_1")
                     danificadoNao = st.checkbox("NÃO", key="danificado_2")
 
-                if danificadoSim:
-                    st.write("6.1 Ele está muito danificado?")
-                    superdanificadoSim = st.checkbox("SIM", key="superdanificado_1")
-                    superdanificadoNao = st.checkbox("NÃO", key="superdanificado_2")
+                    if danificadoSim:
+                       st.write("6.1 Ele está muito danificado?")
+                       superdanificadoSim = st.checkbox("SIM", key="superdanificado_1")
+                       superdanificadoNao = st.checkbox("NÃO", key="superdanificado_2")
+ 
+                       if superdanificadoSim:
+                          st.write(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['link'])
+                          st.image(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['imagem'])
 
-                    if superdanificadoSim:
-                        st.write(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['link'])
-                        st.image(diretorio['LINHA REPARAÇÃO TOTAL 5 PROFUNDA']['imagem'])
+                       elif superdanificadoNao: 
+                          st.write(diretorio['LINHA REPARAÇÃO TOTAL 5']['link'])
+                          st.image(diretorio['LINHA REPARAÇÃO TOTAL 5']['imagem'])
 
-                    elif superdanificadoNao: 
-                        st.write(diretorio['LINHA REPARAÇÃO TOTAL 5']['link'])
-                        st.image(diretorio['LINHA REPARAÇÃO TOTAL 5']['imagem'])
+                   elif danificadoNao:
+                       st.write("7. Ele está desidratado?")
+                       desidratadoSim = st.checkbox("SIM", key="desidratado_1")
+                       desidratadoNao = st.checkbox("NÃO", key="desidratado_2")
 
-                elif danificadoNao:
-                      st.write("7. Ele está desidratado?")
-                      desidratadoSim = st.checkbox("SIM", key="desidratado_1")
-                      desidratadoNao = st.checkbox("NÃO", key="desidratado_2")
-
-                      if desidratadoSim:
+                       if desidratadoSim:
                           st.write("7.1 Ele está muito desidratado?")
                           muitodesidratadoSim = st.checkbox("SIM", key="muitodesidratado_1")
                           muitodesidratadoNao = st.checkbox("NÃO", key="muitodesidratado_2")
@@ -134,7 +134,7 @@ elif caspaNao:
                               st.write(diretorio['LINHA HIDRA DETOX']['link'])
                               st.image(diretorio['LINHA HIDRA DETOX']['imagem'])
 
-                      elif muitodesidratadoNao:
+                       elif muitodesidratadoNao:
                             st.write("7.2 Ele é oleoso?")
                             oleosoSim = st.checkbox("SIM", key="tipo_1")
                             oleosoNao = st.checkbox("NÃO", key="tipo_2")
