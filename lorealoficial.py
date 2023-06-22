@@ -30,7 +30,7 @@ diretorio = {
     "LINHA REPARAÇÃO TOTAL 5":
     {'link': "https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/reparacao-total-5-extra-profundo",
      'imagem': 'https://www.loreal-paris.com.br/-/media/project/loreal/brand-sites/oap/americas/br/products/hair/hair-care/elseve/tr5/rt5.jpg'},
-    "LINHA HIALURONICO":
+    "LINHA PURE HIALURONICO":
     {'link': 'https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/pure-hialuronico',
      'imagem': "https://epocacosmeticos.vteximg.com.br/arquivos/ids/532886-500-500/loreal-paris-elseve-pure-hialuronico-shampoo--5-.jpg?v=638104421191000000"},
     "LINHA DETOX":
