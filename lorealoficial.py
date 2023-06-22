@@ -134,27 +134,27 @@ elif caspaNao:
                               st.write(diretorio['LINHA HIDRA DETOX']['link'])
                               st.image(diretorio['LINHA HIDRA DETOX']['imagem'])
 
-                        elif muitodesidratadoNao:
-                            st.write("7.2 Ele é oleoso?")
-                            oleosoSim = st.checkbox("SIM", key="tipo_1")
-                            oleosoNao = st.checkbox("NÃO", key="tipo_2")
+                          elif muitodesidratadoNao:
+                              st.write("7.2 Ele é oleoso?")
+                              oleosoSim = st.checkbox("SIM", key="tipo_1")
+                              oleosoNao = st.checkbox("NÃO", key="tipo_2")
 
-                            if oleosoSim:
-                               st.write(diretorio['LINHA PURE HIALURONICO']['link'])
-                               st.image(diretorio['LINHA PURE HIALURONICO']['imagem'])
+                              if oleosoSim:
+                                 st.write(diretorio['LINHA PURE HIALURONICO']['link'])
+                                 st.image(diretorio['LINHA PURE HIALURONICO']['imagem'])
 
-                            elif oleosoNao:
-                                st.write("7.3 Seu cabelo é cacheado?")
-                                cacheadoSim = st.checkbox("SIM", key="tipo_1")
-                                cacheadoNao = st.checkbox("NÃO", key="tipo_2")
+                              elif oleosoNao:
+                                 st.write("7.3 Seu cabelo é cacheado?")
+                                 cacheadoSim = st.checkbox("SIM", key="tipo_1")
+                                 cacheadoNao = st.checkbox("NÃO", key="tipo_2")
 
-                                if cacheadoSim:
+                                 if cacheadoSim:
                                     st.write(diretorio['LINHA OLEO EXTRAORDINARIO CACHOS']['link'])
                                     st.image(diretorio['LINHA OLEO EXTRAORDINARIO CACHOS']['imagem'])
 
-                                elif cacheadoNao:
-                                     st.write(diretorio['LINHA OLEO EXTRAORDINARIO']['link'])
-                                     st.image(diretorio['LINHA OLEO EXTRAORDINARIO']['imagem'])
+                                 elif cacheadoNao:
+                                    st.write(diretorio['LINHA OLEO EXTRAORDINARIO']['link'])
+                                    st.image(diretorio['LINHA OLEO EXTRAORDINARIO']['imagem'])
 
                        elif desidratadoNao:
                          st.write("8. Seu cabelo é cacheado?")
@@ -165,16 +165,16 @@ elif caspaNao:
                             st.write(diretorio['LINHA CACHOS DOS SONHOS']['link'])
                             st.image(diretorio['LINHA CACHOS DOS SONHOS']['imagem'])
 
-                         if cacheadoNao:
+                         elif cacheadoNao:
                             st.write("9. Quer o seu cabelo mais longo")
                             longoSim = st.checkbox("SIM", key="tipo_1")
                             longoNao = st.checkbox("NÃO", key="tipo_2")
 
                             if longoSim:
-                                st.write(diretorio['LINHA LONGO DOS SONHOS']['link'])
-                                st.image(diretorio['LINHA LONGO DOS SONHOS']['imagem'])
+                               st.write(diretorio['LINHA LONGO DOS SONHOS']['link'])
+                               st.image(diretorio['LINHA LONGO DOS SONHOS']['imagem'])
 
-                            if longoNao:
+                            elif longoNao:
                                 st.write(diretorio['LINHA LISO DOS SONHOS']['link'])
                                 st.image(diretorio['LINHA LISO DOS SONHOS']['imagem'])
                                   
