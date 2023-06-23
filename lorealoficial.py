@@ -1,10 +1,12 @@
 import streamlit as st
 
+#INTERFACE: Título e breve explicação:
 imagem_url = "https://www.loreal-paris.ru/-/media/project/loreal/brand-sites/oap/emea/ru/resized-photo/2000x600_oap_reno_elseve-res.jpg?rev=6c12448c223d4bbaa8c6a3510f999bc2&cx=0.44&cy=0.38&cw=2000&ch=600&hash=3CBBF0AD10FFCFD83FAB19291EBC3E5F12AEC9AB"
 st.image(imagem_url, use_column_width=True)
 st.title("QUAL ELSEVE É PERFEITO PARA VOCÊ?")
 st.write("A Loreal Elseve tem 16 linhas de cabelo! Com tantas opções maravilhosas fica dificil saber qual é a mais indicada para você, por isso fizemos o Teste de Cabelo Elseve! Descubra sua linha capilar ideal em menos de 3 minutos!")
 
+#DICIONÁRIO: LINHAS + LINKS DE IMAGENS E LINK 
 diretorio = {
     "LINHA HIDRA DETOX CASPA":
     {'link': 'https://www.loreal-paris.com.br/cuidados-com-o-cabelo/elseve/hydra-detox-anti-caspa',
