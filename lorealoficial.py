@@ -55,6 +55,7 @@ diretorio = {
      'imagem': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS287TsHFN6F5LST1G01JDkibCmO46fa50kNA&usqp=CAU'}
 }
 
+#CONDICIONAMENTO PELO IF/ELIF E ESCOLHAS POR MEIO DO CHECKBOX
 st.write("1. Seu cabelo tem caspa?")
 caspaSim = st.checkbox("SIM", key="caspa_1", value=False)
 caspaNao = st.checkbox("NÃO", key="caspa_2", value=False)
